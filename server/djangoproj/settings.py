@@ -29,8 +29,8 @@ SECRET_KEY =\
 DEBUG = True
 
 ALLOWED_HOSTS = ['localhost',
-    '''https://opcraft269-8000.theianext-1-labs-prod-misc-tools-us
-    -east-0.proxy.cognitiveclass.ai''']
+        '''https://opcraft269-8000.theianext-1-labs-prod-misc-tools-us
+        -east-0.proxy.cognitiveclass.ai''']
 CSRF_TRUSTED_ORIGINS = ['https://*.proxy.cognitiveclass.ai']
 
 REST_FRAMEWORK = {
